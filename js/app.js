@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	function fizzbuzz() {
+		/*print 1 - 100 with no modifications*/
 		for(var i = 1; i <= 100; i++) {
 			console.log(i);
 			if(i % 5 === 0 && i % 3 === 0) {
